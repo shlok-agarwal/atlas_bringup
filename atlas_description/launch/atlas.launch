@@ -1,7 +1,7 @@
 <launch>
 
 <arg name="model" />
-<param name="robot_description" textfile="$(find atlas_description)/urdf/atlas_unplugged_v5_dual_robotiq_with_head_mod.urdf" />
+<param name="robot_description" textfile="$(find atlas_description)/urdf/atlas_unplugged_v5_dual_robotiq_with_head_mod_34.urdf" />
 <param name="use_gui" value="true"/>
 
 <node name="joint_state_publisher" pkg="joint_state_publisher"
